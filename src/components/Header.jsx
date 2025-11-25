@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        
-        {/* Logo */}
+
+        { }
         <Link to="/" className="text-2xl font-bold text-blue-600">
-          MyApp
+          ETEC
         </Link>
 
         {/* Menu */}
@@ -37,6 +37,15 @@ const Header = () => {
               className="hover:text-blue-600 transition"
             >
               Contact
+            </Link>
+          </li>
+
+           <li>
+            <Link
+              to="/service"
+              className="hover:text-blue-600 transition"
+            >
+              Service
             </Link>
           </li>
         </ul>
